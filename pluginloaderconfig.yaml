@@ -441,7 +441,7 @@ plugins:
 
 
 
-  symbollib: &symli
+  symbols_library: &symli
      name: symbols
      status: noignore
      source: https://github.com/FreeCAD/FreeCAD-symbols/archive/master.zip
@@ -456,7 +456,7 @@ plugins:
      exec: fn="AppHomePath/Mod/plugins/FreeCAD-symbols/SymbolsLibrary.FCMacro";exec open(fn).read()
      icon: AppHomePath/Mod/plugins/icons/first_angle.png
 
-  partlib: &pali
+  parts_library: &pali
      name: partlib
      status: noignore
      web: http://yorik.uncreated.net/guestblog.php?2014=19
